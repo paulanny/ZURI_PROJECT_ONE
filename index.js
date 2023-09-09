@@ -18,11 +18,11 @@ function updateCurrentDay() {
     timeElement.textContent = currentUTCTime;
   }
   
-  // Call the update functions initially to show the data immediately
+ 
   updateCurrentDay();
   updateCurrentUTCTime();
   
-  // Update the data every second (1000 milliseconds)
+  
   setInterval(() => {
     updateCurrentDay();
     updateCurrentUTCTime();
