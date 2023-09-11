@@ -18,6 +18,7 @@
 
 .texts2 {
   text-align: center;
+ 
 }
 
 .dptxts {
@@ -31,7 +32,7 @@
 
 .texts2 p {
   font-size: 25px;
-  padding-top: 20px;
+  padding-bottom: 30px
 }
 
 .texts .username {
