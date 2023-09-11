@@ -16,16 +16,20 @@
   flex-direction: column;
 }
 
+.texts2 {
+  text-align: center;
+}
+
 .dptxts {
   display: flex;
-  flex-direction: row;
+  flex-direction: column;
   align-items: center;
   justify-content: space-between;
   margin: auto;
   padding: 20px 40px;
 }
 
-.texts p {
+.texts2 p {
   font-size: 25px;
   padding-top: 20px;
 }
@@ -34,7 +38,7 @@
   font-size: 70px;
 }
 
-.texts a {
+.texts2 a {
   text-decoration: none;
   font-size: 18px;
   background-color: #efefef;
@@ -60,7 +64,7 @@
 }
 
 @media(max-width:600px){
-    .texts p {
+    .texts2 p {
         font-size: 20px;
        text-align: center;
       }
@@ -88,7 +92,7 @@
     font-size: 40px;
   }
 
-  .texts a  {
+  .texts2 a  {
     padding: 15px 15px;
   }
 }

@@ -10,14 +10,12 @@ function updateCurrentDay() {
   }
   
   // Function to update the current UTC time
-  function updateCurrentUTCTime() {
-    const currentDate = new Date();
-    const currentUTCTime = currentDate.toUTCString();
-  
-    const timeElement = document.querySelector('[data-testid="currentUTCTime"]');
-    timeElement.textContent = currentUTCTime;
-  }
-  
+  const updateCurrentUTCTime = () => {
+    const utcTime = document.getElementById('time');
+    const currentTime = new Date().getTime();
+    utcTime.textContent = ` ${currentTime}`;
+}
+
  
   updateCurrentDay();
   updateCurrentUTCTime();
